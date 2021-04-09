@@ -1,0 +1,196 @@
+Imagenes porta 
+  [[./PRD_3533_Archivo_ingerev-dlm-es][ Pagina 2]
+
+Marketing : waiting for your challenges
+
+Departamento de movilidad electrica pequeno en comparacion con el departamento de eolica.
+
+Ingeteam se dedica a un monton de negocios. En Sarriguren principalmente a temas de energias renovables : eolica, fotovoltaica, movilidad electrica.
+También existía un departamento dedicado a hidrogeno pero ha desaparecido por falta de inversión. Parece que el hidrogeno a nivel industrial va a volver a retomarse
+pero a nivel de vehiculo lo ven muy complicado.
+
+El *know how* principal de la empresa 
+ - los convertidores de potencia en : eolica, fotovoltaica, barcos, ferroviarios ( los bogies )
+ - temas de automatizacion y control.
+ - motores y bombas.
+
+Ambito de trabajo
+
+- Ingeteam se dedica a fabricar armarios electricos y cuanto mas potencia mejor.
+- Reaprovechamiento de la tecnologia para temas de cargadores de coches, baterias.
+- Temas de automatizacion y control de todo tipo de instalaciones electricas.
+- Division de motores y bombas con su cuota de mercado.
+
+La cede pricipal en Zamudio, es una empresa vasca. En Sarriguren todo lo relacionado con temas de energias renovables.
+El departamento que mas factura sin lugar alguna el departamento de fotovoltaica.
+En fotovoltaica la relacion potencia precio se ha mejorado bastante y se esta instalando mucho.
+Anteriormente el departamento de eolica era el que más negocio abarcaba. Siguiendo el tirón de gamesa. Pero desde que gamesa fue comprada por Siemens la cosa no pinta bien.
+
+Cedes : 
+- Ingeteam se encuentra en 22 paises. Con mas de 4000 empleados. Con mas de 75 años de experiencia.
+- Ingeteam tiene su cede en Zamudio.
+- Con presencia en Europa ( se tiene que estar ).
+- Latinoamerica como mercado natural.
+- Con fuerte presencia en Australia y Sud-Africa.
+- Entrada fuerte en la India con temas de eólica.
+- Presencia en Estados Unidos y Canada
+
+Fabricas:
++ Temas de convertidores de potencia :
+- La fabrica principal de energias renovables se encuentra es Sesma. Principalmente de eolica y fotovoltaica.
+- En zamudio existe parte
++ Maquinas electricas 
+- En Beasain
+- Segorbe 
++ En el extranjero
+- Una linea en Brazil
+- Una linea en Estados Unidos
+- Una linea en la India. Temás de eólica.
+Para ganar más cuota de mercado se han visto obligados a ir abriendo nuevas cedes.
+Un motivo para abrir lineas de montaje en el extrajero, que no sean las razones obias, es porque los paises te obligan. Para vender en estados unidos puede que sea necesario que el equipo este fabricado en estados unidos y al menos el 60% de las piezas sean americanas.
+
+Laboratorios:
+En Zamudio hasta 40MW, es un laboratorio en palabras de mi tutor digno de ver.
+En la actualidad estan trabajando en un cargador de 400kW y el laboratorio de Sarriguren se ha quedado muy limitado y dentro de poco se van a trasladar a una nueva nave en Areta para realizar los ensayos.
+
+I+D 
+Trabajos para las universidades : UPNA, UPV, Deuston.
+Con centros tecnologicos :Naitech, Tecnalia.
+Ingeteam es una empresa que busca proyectos con CDTIs para ir mejorando en sus productos y sacar nuevos productos.
+
+Marcas principales
+- Ingeteam
+- Indar : bombas y motores. En beasain.
+
+Movilidad electrica
+
++ Que hacemos nosotros
+Puntos de recarga de dos modelos :
+- los de alterna.
+- los de continua.
+Los puntos de recarga de alterna serian como un enchufe inteligente.
+Los puntos de recarga en continua son más complejos puesto que necesario pasar de AC a DC. En continua se eleva a la tension de la bateria. Se sube más en potencia.
++ Mercado
+El mercado empezo con todos los coches cargando en alterna. La potencia en alterna es limitada. Ingeteam no marca la diferencia AC. Cualquiera puede cargar en AC.
+El mercado esta invertiendo en carga en DC. Permite trabajar a más potencia. Ingeteam
+se siente comodo con potencias de trabajo elevadas. Es su sector natural.
+
+En la actualidad se están trabajando con potencias de 1 MW para cargar camiones.
+
++ Gama principal
+La gama principal es la FUSION.
+Se encuentra disponible en dos versiones :
+- FUSION Street instalacion en el suelo.
+- FUSION Wall instalacion en pared.
+
++ Algunas Caracteristicas de los equipos
+   - Potencias
+     Las potencias principales son :
+     - 7.4 kW
+     - 22 kW
+   - Comunicaciones
+     - Wifi
+     - Ethernet
+     - 3G
+   - Necesidad de cuidar la estetica. Favorece la venta.
+     - Pantalla a color de hasta 21 pulgadas.
+     - Lineas finas.
+     - Superficies planas. Facilita la instalacion de vinilos para la customización con logos.
+
+Equipos de continua
+
+Los primeros equipos constaban de :
+- 3 mangueras
+- pantalla a color
+- identificacion por medio de RFID
+- capaz de cargar en AC
+- capaz de cargar de forma simultanea
+- balance en potencia priorizando la DC frente a la AC.
+  El balance es necesario puesto que la potencia es limita, limite superiro la
+  potencia contratada. En ciertos instantes puede que sea necesario repartir
+  la energia disponible entre los conectores.
+- comunicaciones : Wifi, principalmente 3G
+Evolucion de equipos :
+- hacia un menor numero de tomas.
+- salto en potencia
+
+Rapid st 200 y 400
+
+This makes it possible to charge a vehicle battery in five to ten minutes, similar to the normal time taken to refuel a vehicle.
+
+- Salto en potencia
+- Pantalla doble, 21 pulgadas arriba.
+- Espacio publicitario
+- Estandares chamedo y css hasta 400kW.
+- Solo una instalacion del rapid st 200/400. Tampoco se ponen tantas.
+- Se encuentra en una estación de servicio de Bilbao Ugaldebieta.
+- AC-DC heredado de fotovoltaica procede de un Power Max ( hasta un 1MW) . Se pueden acoplar tanto baterias como paneles fotovoltaicos.La solución hacia donde va el negocio. Poder integrar con baterias y fotovoltaica para reducir el consumo de diesel y biodiesen.
+- ST tiene su origen a que estos convertidores DC/DC son satelites del convertidor
+principal el POWER MAX.
+
+  [[./installation-and-operation-manual-for-ingerev-rapid-st.pdf][Pagina 11]
+
+   AC/DC   ---------------- DC/DC ----------------- CSS
+"POWER MAX"    |            "RAPID ST 200/400"      "Max 400 kW" y "Max 250 kW"
+       	       |
+       	       ------------ DC/DC ----------------- CHAdEDO
+	       |            "RAPID ST 200/400"      "Max 100 kW"
+	       |
+	       ------------ DC/DC----------------- CSS
+	                    "RAPID ST 200/400"      "Max 400 kW" y "Max 250 kW"
+
+- Sin la caracateristica "Balanceo de potencia" como máximo 2 estaciones de 400 kW.
+ Habilitando el balance de potencia se suelen poner más equipos salites.
+- Backends
+ Todos los equipos estan cada vez mas monitorizados.
+ Principalmente para temas de control. Ver como están funcionando.
+ Para permisos de accesos al equipo. Se va ha sustutuir en los equipos más caros
+ por un lectos de VISA.
+ Protocolo principal de comunicacion es OCPP. Estadariza la comunicacion entre el punto de recarga y el sistema de gestion.  
+ [[./Open%32%Charge%32%Point%32%Protocol%32%OCCP%32%manual.pdf][Pagina 13]
+
+                                                  ------------- Rapid ST
+                                                 |
+ Backend -----  Cloud  ------- GPRS Modem ---- SWITCH --------- Rapid ST
+                                                 |                                   
+                                                  ------------- Rapid ST
+IBERDROLA como principal cliente.
+Como anecdota el mejor año para el departamento fue precisamente durante la pandemia.
+
+SMART DLM
+
+Que es el smart DLM??
+Imaginemos que una gasolinera tiene contratados 100 kW. Dedicando la parte sobrante de potencia para los cargadores electricos.
+Smart DLM permite repartir la potencia sobrante de la instalacion, la potencia se mide empleando un vatimetro aguas arriba.
+Solucion interesante para evitar instalar potencia de más y reducir los sobrescoste.
+Un ejemplo del reparto de potencias se puede observar en 
+[[./PRD_3533_Archivo_ingerev-dlm-es][ Pagina 2]
+Nunca se pasa del máximo.
+
+JUAN PALOMO : YO ME LO GISO YO ME LO COMO
+A diferentencia de otras empresas que necesitan de otras marcas, con todos los problemas de homologacion que acarrean, Ingeteam ya dispone
+de todos los conocimientos necesarios para fabricar baterias : 
+- Cargadores electricos con el DLM.
+- Software DS del equipo de comunicacion que se encargan de gestionar el sistema distribuido.
+- Entre el software EMS, es en controlador principal encargado de monitorizar y configurar los cargadores.
+- Los inversores fotovoltaicos en el departamento de fotovoltaico.
+
+To date, Ingeteam has supplied more than 4,500 EV charging points, in both AC and DC, installed in countries such as Spain, Italy, South Africa, Mexico, Turkey, United Kingdom and Australia. 
+
+
+Para un particular todavia es caro pero para flotas de coches su entrada esta siendo fuerte, los motivos reduce las emisiones CO2 y consumo de combustibles fosibles.
+Por ejemplo el gobierno balear fuerza a migrar hacía vehículos eléctricos a las empresas de alquiler. Las distancias son pequeñas y tiene sentido. 
+Parado por temas de COVID.
+La empresa tiene contratado un coche de renting electrico para desplazarse a Sesma. Más economico y menos contaminante. El coche son 180 cv. Para desplaziemtos
+diarios es ideal, no más de 100 km diarios.
+
+* Anecdota 
+
+
+
+ 
+  
+
+
+
+

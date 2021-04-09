@@ -1,0 +1,73 @@
+* Ingeteam
+
+Es una empresa especializada en la conversion de energia eléctrica. La cede pricipal está en Zamudio (Vizcaya), es una empresa vasca.
+Existen más cedes a nivel nacional como internacional, entre la que destaca su cede en Sarriguren con temas de energias renovables.
+Ingeteam opera en 24 paises, tiene más de 4000 empleados y cuenta con una experiencia de más de 75 años.
+El *know how* principal de la empresa es:   
+ - convertidores de potencia en : eolica, fotovoltaica, barcos, ferroviarios ( los bogies ).
+ - temas de automatización y control.
+ - motores y bombas.
+
+Reaprovechando su tecnologia, Ingeteam, está opostando fuertemente por los cargadores de coche electricos dentro del sector de la movilidad electrica.
+Se están destinando recursos y dedicación a la investigacion y desarrollo de soluciones. A diferentencia de otras empresas que necesitan de otras marcas, 
+con todos los problemas de homologacion que acarrean, Ingeteam parte de un escenario prometedor, dispone de todos los conocimientos necesarios: 
+- Los inversores fotovoltaicos. 
+- Cargadores eléctricos con el DLM.
+- Software DS encargado de gestionar los sistemas distribuidos.
+- Software EMS, es en controlador principal encargado de monitorizar y configurar los cargadores.
+
+Ingeteam ha suministrado más de 4500 puntos de recargas, tanto en alterna como en continua, a paises como: España, Italia, México, Turquia,
+Reino Unido y Australia. La seguridad, fiabilidad y facilidad de mantenimiento les convierten en la mejor opción.
+
+https://power-electronics.com/es/movilidad/
+
+
+** Movilidad Electrica
+
+https://www.ingeteam.com/es-es/sectores/movilidad-electrica/s15_58_p/productos.aspx
+
+Dentro del sector de la movilidad eléctrica, Ingeteam está especializado en el diseño, desarrollo y producción de puntos de recarga. 
+La gama completa de puntos de recarga, tanto en corriente alterna como en continua, es la INGEREV.
+Las principales familias son :
+- Privada : INGEREV Garage Basic.
+- Publica : INGEREV FUSION, INGEREV GARAGE, INGEREV CITY Ground, INGEREV CITY Duo.
+- Rapida : INGEREV RAPID 50, INGEREV RAPID HPC, INGEREV RAPID STATION.
+La linea de productos INGEREV abarca todo tipo de potencias y tipologias de instalaciones posibles.
+
+
+Los módelos de cargadores se dividen
+en dos: los de alterna y los de continua. 
+En un principio los cargadores más ventidos eran de alterna, con las limitaciones de potencias naturales. En la actualidad, se están solicitando cargadores en DC, con
+potencias de trabajo mayores, niveles muy comodos en los cuales la empresa puede marcar la diferencia.
+
+*** Cargadores eléctricos
+
+La gama principal de los cargadores eléctricos AC es la FUSION. La FUSION es la serie para particulares tanto en entornos públicos como privados.
+Sus pricipales caracteristicas son :
+- Dos tomas de salidas máximas, una tipo 1 y otra tipo 2.
+- Gestion dinamica de carga, DLM.
+- Comunicaciones Wifi y Ethernet.
+- Protocolo OCPP.
+ Se encuentran disponibles en dos versiones :
+- FUSION Street
+- FUSION Wall
+
+
+En Sarriguren todo lo relacionado con temas de energias renovables : eolica, fotovoltaica y movilidad electrica. Existía un departamento dedicado a la pila de hidrogeno,
+desaparecido por falta de inversión.
+
+El departamento con mayor facturación es el departamento de fotovoltaica. En fotovoltaica, la relación potencia-precio se ha mejorado bastante y se está instalando más. 
+Anteriormente, el departamento de eolica era el que más negocio abarcaba, siguiendo la estela de Gamesa. Desde que gamesa fue comprada por Siemens, en el mercado surguen
+ciertas inestabilidades que han afectado de forma indirecta a su producción mermando sus ingresos.
+
+*** Tipos de conectores 
+En función de la potencia, los puntos de recarga estará equipados con diferentes tipos de conectadores. Una tabla resumen de los tipos de conectares es la siguiente
+| Conector | Tipo |
+| Tipo 1   | AC   |
+| Tipo 2   | AC   |
+| CHAdeMo  | DC   |
+| CSS      | DC   |
+
+
+
+

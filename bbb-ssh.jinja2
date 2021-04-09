@@ -1,0 +1,5 @@
+{% extends 'ssh.jinja2' %}
+{% set ssh_host = ssh_host | default('192.168.6.4') %}
+{% set ssh_identity_file = 'dynamic_vm_keys/lava' %}
+{% block schroot %}
+{% endblock %}b

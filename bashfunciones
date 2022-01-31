@@ -1,0 +1,124 @@
+function docker_(){
+ echo "Hint : docker_ {version|other_command}"
+ docker --tlsverify --tlscacert=~/.docker/ca.pem --tlscert=~/.docker/cert.pem --tlskey=~/.docker/key.pem -H=192.168.0.26:2376 $*
+}
+export -f docker_
+function up()
+{
+    for i in `seq 1 $1`;
+    do
+        cd ../
+    done;
+} 
+function proceso_buscar() {
+        if [ ! -z $1 ] ; then
+                echo "Grepping for processes matching $1..."
+                ps aux | grep $1 
+        else
+                echo "!! Need name to grep for"
+        fi
+}
+
+# Useful unarchiver!
+function descomprimir() {
+        if [ -f $1 ] ; then
+                case $1 in
+                        *.tar.bz2)        tar xjf $1                ;;
+                        *.tar.gz)        tar xzf $1                ;;
+                        *.bz2)                bunzip2 $1                ;;
+                        *.rar)                rar x $1                ;;
+                        *.gz)                gunzip $1                ;;
+                        *.tar)                tar xf $1                ;;
+                        *.tbz2)                tar xjf $1                ;;
+                        *.tgz)                tar xzf $1                ;;
+                        *.zip)                unzip $1                ;;
+                        *.Z)                uncompress $1        ;;
+                        *)                        echo "'$-1' cannot be extracted via extract()" ;;
+                esac
+        else
+                echo "'$1' is not a valid file"
+        fi
+}
+
+function crear_soft_link() {
+
+ ln -s -f "$@" 
+ lsla "$2"
+}
+#To launch containers on our device, we will use the balena push command.Move to the container root directory first
+function balena_push (){
+ balena push 192.168.0.28
+}
+
+function balena_ssh (){
+ balena ssh 192.168.0.28 "$*"
+}
+
+function squad_arrancar () {
+ squad --bind 192.168.0.26:9000
+}
+
+function squad_frontend() {
+ firefox http://192.168.0.26:9000/
+}
+
+function squad_lava_jobs_enviar() {
+
+ echo "[animo] Bienvenido Erik"
+ echo "[animo] Vas a lanzar otro job"
+ echo "[animo] SUERTE...."
+ jobId=$(curl 192.168.0.26:9000/api/submitjob/cargadores/fusion/1/otro --header "Auth-Token: $SQUAD_SUPER_TOKEN" --form "backend=lava"  --form "definition=@/etc/lava-server/jobs/$1")
+ echo "[LAVA] Job ID $jobId"
+ echo "[animo] A la espera......"
+ lavacli_jobs_log $jobId
+ squad-admin testfetch 192.168.0.26 $jobId cargadores/fusion 
+ echo "[animo] TO DOO OK??......"
+}
+
+function squad_lava_jobs_log(){
+
+squad-admin testfetch 192.168.0.26 "$*" mi_squad/mi_squad
+
+}
+
+function lavacli_super () {
+ lavacli --uri http://super:k70qa0bspzq2k2mkt9cdgjnt1zhnjloq1r4316ce5dnczjbzgak0mz6w21o05jdhiiwmfn2exnzu97bafhba7lcdrkyzx32c250whfad3jrs1tof09sm0hsd7rs0xhyc@192.168.0.26/RPC2 $@
+}
+
+function lavacli_jobs_log () {
+ lavacli --uri http://super:k70qa0bspzq2k2mkt9cdgjnt1zhnjloq1r4316ce5dnczjbzgak0mz6w21o05jdhiiwmfn2exnzu97bafhba7lcdrkyzx32c250whfad3jrs1tof09sm0hsd7rs0xhyc@192.168.0.26/RPC2 jobs logs "$*"
+}
+
+function lavacli_jobs_enviar(){
+ echo "[animo] Bienvenido Erik"
+ echo "[animo] Vas a lanzar otro job"
+ echo "[animo] SUERTE...."
+ jobId=$(lavacli --uri http://super:k70qa0bspzq2k2mkt9cdgjnt1zhnjloq1r4316ce5dnczjbzgak0mz6w21o05jdhiiwmfn2exnzu97bafhba7lcdrkyzx32c250whfad3jrs1tof09sm0hsd7rs0xhyc@192.168.0.26/RPC2 jobs submit "$*")
+ jobId=${jobId%%.*}
+ jobId=${jobId##*"[LAVA] Job ID"}
+ echo "[LAVA] Job ID $jobId"
+ echo "[animo] A la espera......"
+ lavacli_jobs_log $jobId
+ echo "[animo] TO DOO OK??......"
+}
+
+
+
+#
+#JENKINS
+#
+function jenkins_frontend(){
+ firefox 192.168.0.26:8080
+}
+
+#
+#LOGSTASH
+#
+function elk_logstash(){
+ /usr/share/logstash/bin/logstash $@
+}
+#
+#Pasar el checksum descargado, la ruta. SHASUM 512
+function paquete_validar_sha512(){
+shasum -a 512 -c "$*"
+}

@@ -1,0 +1,97 @@
+Thu May 11 15:30:30 2023 local0.info visad[17141]: 
+MS: 007801600S19IngeteamCPP#3043341707#000000#000#01199#010000#000001000#000000#m01
+Thu May 11 15:30:30 2023 local0.info hmi[2701]: CreditCardTagPage.qml loaded
+Thu May 11 15:30:30 2023 local0.info hmi[2701]: entering dc2_credit_card_tag_open
+Thu May 11 15:30:30 2023 local0.info visad[17141]: 
+H24:0005010
+Thu May 11 15:30:30 2023 local0.info visad[17141]: exit_request
+Thu May 11 15:30:30 2023 local0.info visad[17141]: entry_reading
+Thu May 11 15:30:30 2023 local0.info visad[17141]: 6Z00222A3830.ccsright.task_request_run
+Thu May 11 15:30:30 2023 local0.info visad[17141]: preauth
+Thu May 11 15:30:30 2023 local0.info visad[17141]: IN ccsright
+Thu May 11 15:30:30 2023 local0.info visad[17141]: [0][0] 6Z00222A3830.ccsright
+Thu May 11 15:30:30 2023 local0.info visad[17141]: LCONN NAME ccsright (8)
+Thu May 11 15:30:30 2023 local0.info visad[17141]: CONN NAME ccsright (8)
+Thu May 11 15:30:30 2023 local0.info visad[17141]: LOGICAL 6Z00222A3830.ccsright
+Thu May 11 15:30:30 2023 local0.info visad[17141]: pconn 6Z00222A3830.ccsright
+Thu May 11 15:30:30 2023 local0.info visad[17141]: PHYSICAL 6Z00222A3830.ccsright
+Thu May 11 15:30:30 2023 local0.info visad[17141]: lindex 0
+Thu May 11 15:30:30 2023 local0.info visad[17141]: pindex 0
+Thu May 11 15:30:30 2023 local0.info visad[17141]: exit_preauth_request
+Thu May 11 15:30:30 2023 local0.info visad[17141]: entry_authorizing
+Thu May 11 15:30:31 2023 daemon.err visad[17141]: QUEUE STATUS [1/1]
+Thu May 11 15:30:31 2023 local0.info visad[17141]: 
+H24:017701600D2305111530103043341707ÿ#000028#P#0104##NSM INCORRECTOS#SBGENM11-05-2023         15:30
+
+------------------------
+     NSM INCORRECTO
+------------------------
+
+
+
+
+Thu May 11 15:30:31 2023 local0.info visad[17141]: 
+MS: 0005010
+Thu May 11 15:30:32 2023 local0.info visad[17141]: 
+H24:0005010
+Thu May 11 15:30:34 2023 local0.info visad[17141]: exit_reading
+Thu May 11 15:30:34 2023 local0.info visad[17141]: entry_request
+Thu May 11 15:30:34 2023 local0.info visad[17141]: state_index 3
+Thu May 11 15:30:34 2023 local0.info visad[17141]: r_type 1
+Thu May 11 15:30:34 2023 local0.info visad[17141]: 
+MS: 007801600S19IngeteamCPP#6168763558#000028#000#01199#010000#000001000#000000#m01
+Thu May 11 15:30:34 2023 local0.info visad[17141]: 
+H24:0005010
+Thu May 11 15:30:34 2023 local0.info visad[17141]: exit_request
+Thu May 11 15:30:34 2023 local0.info visad[17141]: entry_reading
+Thu May 11 15:30:34 2023 local0.info visad[17141]: 6Z00222A3830.ccsright.task_request_run
+Thu May 11 15:30:34 2023 local0.info visad[17141]: preauth
+Thu May 11 15:30:34 2023 local0.info visad[17141]: IN ccsright
+Thu May 11 15:30:34 2023 local0.info visad[17141]: [0][0] 6Z00222A3830.ccsright
+Thu May 11 15:30:34 2023 local0.info visad[17141]: LCONN NAME ccsright (8)
+Thu May 11 15:30:34 2023 local0.info visad[17141]: CONN NAME ccsright (8)
+Thu May 11 15:30:34 2023 local0.info visad[17141]: LOGICAL 6Z00222A3830.ccsright
+Thu May 11 15:30:34 2023 local0.info visad[17141]: pconn 6Z00222A3830.ccsright
+Thu May 11 15:30:34 2023 local0.info visad[17141]: PHYSICAL 6Z00222A3830.ccsright
+Thu May 11 15:30:34 2023 local0.info visad[17141]: lindex 0
+Thu May 11 15:30:34 2023 local0.info visad[17141]: pindex 0
+Thu May 11 15:30:34 2023 local0.info visad[17141]: PREAUTH 6Z00222A3830.ccsright.task_request_run
+Thu May 11 15:30:35 2023 local0.info visad[17141]: 
+H24:000601BM
+Thu May 11 15:30:36 2023 local0.info visad[17141]: 
+H24:000501C
+Thu May 11 15:30:44 2023 local0.info visad[17141]: 
+H24:000601CD
+Thu May 11 15:30:44 2023 local0.info hmi[2701]: state machine is at dc2_credit_card_tag_open -> submit DC2_CREDIT_CARD_DETECTION event
+Thu May 11 15:30:44 2023 local0.info hmi[2701]: exiting dc2_credit_card_tag_open
+Thu May 11 15:30:44 2023 local0.info hmi[2701]: CreditCardDetectionPage.qml loaded
+Thu May 11 15:30:44 2023 local0.info hmi[2701]: entering dc2_credit_card_tag_detection
+Thu May 11 15:30:45 2023 local0.info visad[17141]: 
+H24:000601CR
+Thu May 11 15:30:46 2023 local0.info visad[17141]: 
+H24:000601CQ
+Thu May 11 15:30:47 2023 local0.info visad[17141]: 
+H24:000501H
+Thu May 11 15:30:47 2023 local0.info visad[17141]: exit_reading
+Thu May 11 15:30:47 2023 local0.info visad[17141]: entry_preauth
+Thu May 11 15:30:47 2023 local0.notice powerstack[2774]: module 2 with temperature 40
+Thu May 11 15:30:48 2023 local0.info visad[17141]: 
+H24: 000601HC0501H
+Thu May 11 15:30:49 2023 local0.info visad[17141]: 
+H24: 000601HD
+Thu May 11 15:30:49 2023 local0.notice powerstack[2774]: module 2 with temperature 39
+Thu May 11 15:30:50 2023 local0.info visad[17141]: [truncated] 
+H24: 134401600A2305111530466168763558þ#000029#P#00#000001000#000016#000001000#513770******2957#4 ####01199#010000#000001000#000000000#S#LOGOCM
+NAMESOSTATION AVIAL PDANGERS2 FR55522546548
+BODYIM8937685-Frosinone
+COM: 899214985
+TERM: 999
+
+    PREAUTORIZACION               MC            
+11-05-2023         15:30OP: 16       AUT: 052201Tarj:***************2957CONTACTLESS SIN VERIF.
+ARC:00 PSN:00
+ETI:MASTERCARD         
+AID:A00000Thu May 11 15:30:50 2023 local0.info visad[17141]: 
+MS: 0005010
+Thu May 11 15:30:51 2023 local0.info visad[17141]: 
+H24: 0005010

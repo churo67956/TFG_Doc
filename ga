@@ -1,0 +1,7 @@
+git clone https://github.com/KDAB/GammaRay.git
+git checkout 2.11
+export PATH=/opt/ingeteam/abx0099/xenial/host/usr/bin/:$PATH
+export SYSROOT=/opt/ingeteam/abx0099/xenial/host/aarch64-buildroot-linux-musl/sysroot/
+/usr/bin/cmake -DCMAKE_TOOLCHAIN_FILE="/opt/ingeteam/abw0001/xenial/host/usr/share/buildroot/toolchainfile.cmake" -DCMAKE_PREFIX_PATH=$SYSROOT/usr/qml/Qt -DCMAKE_INSTALL_PREFIX=/tmp/gammaray -DGAMMARAY_BUILD_UI=OFF
+make
+make install
